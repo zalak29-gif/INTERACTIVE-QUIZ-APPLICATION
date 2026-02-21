@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies Quiz</title>
+  <link rel="stylesheet" href="../styles/genre-base.css" />
+  <link rel="stylesheet" href="../styles/theme-movies.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section id="quizCard" class="quiz-card">
+      <header class="quiz-header">
+        <div class="top-row">
+          <h1 id="genreTitle">Movies</h1>
+          <a class="back-home" href="../index.html">Back Home</a>
+        </div>
+        <p id="genreSubtitle" class="quiz-subtitle"></p>
+        <section class="subcategory-panel" aria-label="Subcategories">
+          <p class="subcategory-label">Select subcategory first:</p>
+          <div id="subcategoryChips" class="subcategory-chips"></div>
+        </section>
+        <div class="meta-row">
+          <p id="currentSubcategoryText">Subcategory: -</p>
+          <p id="progressText">Question 0 / 0</p>
+          <p id="scoreText">Score: 0 pts</p>
+          <p id="accuracyText">Accuracy: 0%</p>
+          <p id="timerText" class="timer-pill">Time: 15s</p>
+        </div>
+        <div class="progress-track">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </header>
+      <section class="quiz-body">
+        <h2 id="questionText" class="question-text">Select a subcategory to start.</h2>
+        <p id="statusText" class="status-text"></p>
+        <div id="answersContainer" class="answers-grid"></div>
+        <p id="feedbackText" class="feedback-text"></p>
+      </section>
+      <footer class="quiz-footer">
+        <button id="nextBtn" class="btn btn-primary" type="button" disabled>Next Question</button>
+      </footer>
+    </section>
+
+    <section id="resultCard" class="result-card hidden">
+      <h2>Quiz Completed</h2>
+      <p id="finalScoreText">You scored 0 / 0 points.</p>
+      <div id="resultStats" class="result-stats"></div>
+      <p id="finalMessageText"></p>
+      <div class="result-actions">
+        <button id="restartBtn" class="btn btn-secondary" type="button">Play Again</button>
+        <button id="pickSubcategoryBtn" class="btn btn-ghost" type="button">Change Subcategory</button>
+        <a class="btn btn-ghost" href="../index.html">Home</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="../scripts/data-movies.js"></script>
+  <script src="../scripts/config-movies.js"></script>
+  <script src="../scripts/genre-runtime.js"></script>
+</body>
+</html>
+
+
+

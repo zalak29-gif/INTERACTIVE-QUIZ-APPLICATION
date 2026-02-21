@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Pinboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="home-card">
+      <header class="home-header">
+        <h1>Quiz Pinboard</h1>
+        <p>Pick a category and test your knowledge.</p>
+      </header>
+
+      <h2 class="home-title">Choose Your Genre</h2>
+      <section id="homeCategoryGrid" class="home-category-grid" aria-label="Quiz categories"></section>
+      <p id="homeStatus" class="home-status" role="status" aria-live="polite"></p>
+
+      <section class="dashboard-card" aria-label="Performance dashboard">
+        <div class="dashboard-head">
+          <h3>Dashboard</h3>
+          <p id="dashboardSummary" class="dashboard-summary">Total attempts: 0</p>
+        </div>
+        <div class="dashboard-table-wrap">
+          <table class="dashboard-table">
+            <thead>
+              <tr>
+                <th>Genre</th>
+                <th>Subcategory</th>
+                <th>Attempts</th>
+                <th>Best Score</th>
+                <th>Best %</th>
+                <th>Last Played</th>
+              </tr>
+            </thead>
+            <tbody id="dashboardBody">
+              <tr>
+                <td colspan="6">No quiz attempts yet. Complete a quiz to see stats here.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+    <footer class="site-footer">© 2026 Zalak. All rights reserved.</footer>
+  </main>
+
+  <script src="scripts/data-categories.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>
