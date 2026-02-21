@@ -37,3 +37,21 @@ There is no Node build tool or backend runtime requirement in the current versio
 
 Languages and technologies used are HTML5, CSS3, and JavaScript (ES6-style browser scripting).
 The overall implementation shows completed work in UI structure, gameplay logic, validation, state transitions, results processing, and persistent analytics at local-browser level.
+
+# OUTPUT
+
+<img width="1919" height="918" alt="Image" src="https://github.com/user-attachments/assets/1a89793e-0fb6-4102-a63d-598b8f77edbc" />
+
+<img width="1919" height="918" alt="Image" src="https://github.com/user-attachments/assets/690c3470-3077-4795-b2b4-5c4cc7279c35" />
+
+<img width="1919" height="919" alt="Image" src="https://github.com/user-attachments/assets/13a85c43-29c3-4d97-bd95-fb48a4641d9e" />
+
+<img width="1919" height="916" alt="Image" src="https://github.com/user-attachments/assets/f1477e70-ea7b-4614-a64f-6af321c1ceae" />
+
+<img width="1919" height="912" alt="Image" src="https://github.com/user-attachments/assets/f82ede04-e447-4609-b218-11c22c9f0b08" />
+
+<img width="1919" height="922" alt="Image" src="https://github.com/user-attachments/assets/e5471a53-8b04-4dd4-a9ed-13b09e939228" />
+
+<img width="1919" height="919" alt="Image" src="https://github.com/user-attachments/assets/133a5c5b-68d8-4c78-abf8-a86d1de4c181" />
+
+<img width="1919" height="917" alt="Image" src="https://github.com/user-attachments/assets/c4eb141e-ed97-4130-814a-598abafe4fac" />
