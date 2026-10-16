@@ -1,17 +1,5 @@
 # QUIZ-PINBOARD - INTERACTIVE-QUIZ-APPLIACATION
 
-*COMPANY*: CODTECH IT SOLUTIONS
-
-*NAME*: PARMAR ZALAK KANTILAL
-
-*INTERN ID*: CTIS4007
-
-*DOMAIN*: FRONT END DEVELOPMENT
-
-*DURATION*: 4 WEEKS
-
-*MENTOR*: NEELA SANTOSH
-
 # Quiz Pinboard is a browser-based quiz platform designed as a multi-genre quiz hub with subcategory-based gameplay, scoring, timer logic, and a persistent performance dashboard.
 Based on the current codebase, this project is implemented as a static frontend application using HTML, CSS, and vanilla JavaScript, with no server dependency required for core functionality.
 It runs directly in the browser and stores user progress in localStorage, making it lightweight and easy to launch from any local or hosted static environment.
